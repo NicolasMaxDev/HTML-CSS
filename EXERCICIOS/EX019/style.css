@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(118, 145, 243);
+}
+h1 {
+    color: rgb(48, 48, 216);
+}
+
+h1#principal {
+    text-align: center;
+    color: #f3f3f5;
+    background-image: linear-gradient(rgb(7, 7, 103), rgb(121, 121, 234));
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(6, 6, 138);
+}
+
+.basico {
+    color: rgb(185, 26, 185) ;
+}
+
+.intermediario {
+    color: rgb(149, 13, 234);
+}
+
+.avancado {
+    color: rgb(86, 25, 143);
+}
+
+.basico  {
+    text-align: center;
+}
+
+.intermediario {
+    text-align: center;
+}
+
+.avancado {
+    text-align: center;
+}
+
+.destaque {
+    background-color: rgb(215, 215, 15);
+}

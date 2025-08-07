@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body {
+        background-color: rgb(154, 151, 146);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    article {
+        box-shadow: 4px 3px 3px rgb(118, 118, 118);
+        background-color: rgb(234, 242, 249);
+        border-width: 3px;
+        border-color: rgb(234, 242, 249);
+        border-style: solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px
+    }
+
+    header {
+        text-align: left;
+        border-radius: 5px;
+        border-width: 3px;
+        border-color: aliceblue;
+        border-style: solid;
+        margin: 10px 0px 12px 0px;
+        padding: 10px 10px 10px 10px;
+        background-color: aliceblue;
+        box-shadow: 4px 3px 3px rgb(118, 118, 118);
+    }
+
+    footer {
+        text-align: center;
+        margin: 15px;
+        
+    }
+
+    footer > p {
+        background-color: brown;
+        display: inline;
+        border: 3px;
+        border-color: brown;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    nav  {
+        background-color: rgb(215, 215, 215);
+        box-shadow: 1px 2px 5px 1px rgb(179, 178, 178);
+        border-radius: 5px;
+        padding: 3px;
+    }
+    
+    nav > a {
+        color: brown;
+        text-decoration: none;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    aside > p {
+        background-color: rgb(215, 215, 215);
+        box-shadow: 1px 2px 5px 1px rgb(179, 178, 178);
+        border-radius: 5px;
+        padding: 2px;
+        margin-bottom: 15px;
+    }
+
+</style>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+
+    </section>
+    <section id="noticias">
+        <article>
+           <h2>Noticias sobre o Brasil</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati laboriosam, excepturi est neque officia eos provident sapiente quibusdam temporibus quaerat veniam commodi cum delectus itaque natus ipsa repudiandae facilis at!</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+    </section>
+   </main>
+   <footer>
+    <p>Desenvolvido por Nicolas Maximiano</p>
+   </footer>
+</body>
+</html>
