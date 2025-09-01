@@ -6,50 +6,56 @@
 }
 
 body {
-    display: flex;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #007BFF, #6A11CB);
-    justify-content: center; 
-    align-items: center;
+    background-image: url(imagens/ChatGPT\ Image\ 1\ de\ set.\ de\ 2025\,\ 18_16_01.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  
 }
 
-main {
-    background-color: #0a080889;
-    padding: 15px; 
+section {
+    position: relative;
+    height: 100vh;
+}
+
+section > main {
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 15px;
     border-radius: 30px;
-    box-shadow: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 input {
-    border: none;
-    padding: 7px;
-    border-radius: 10px;
-    outline: none;
-}
-
-input:hover {
-    background-color: rgb(220, 220, 220);
-    transition-duration: 0.5s;
-}
-
-h1 {
-    text-align: center;
     color: white;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 14px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.461);
 }
 
 button {
-    background-color: #6A11CB;
-    border: none;
-    padding: 6px;
+    padding: 5px;
+    border-radius: 13px;
+    background-color: white;
     text-align: center;
-    margin-bottom: 6px;
-    border-radius: 10px;  
-    color: white; 
-    width: 100%;
+    width: 98%;
+    margin-bottom: 10px;
 }
 
 button:hover {
-    background-color: #480a89;
+    background-color: rgb(19, 19, 19);
+    color: white;
     transition-duration: 0.5s;
 }
